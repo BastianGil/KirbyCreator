@@ -1,0 +1,211 @@
+html {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.gallery {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/Imagenes/Fondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gallery__cuaderno {
+  height: 90vh;
+  width: 150vh;
+  background-image: url(/Imagenes/pantallas/Galeria.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gallery__izquierda {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.gallery__link {
+  height: 20%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gallery__home {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.gallery__toHome {
+  height: 100%;
+  width: 10%;
+  margin: 0 65% 0 0;
+  background-image: url(/Imagenes/Botones-Inputs/BotonesDeNavegacion/HomeBoton.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 70%;
+}
+
+.gallery__toHome:hover {
+  opacity: 100%;
+}
+
+.gallery__preview {
+  height: 40%;
+  width: 50%;
+  margin: 20% 0 0 35%;
+}
+
+.gallery__back {
+  height: 20%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.gallery__toBack {
+  height: 100%;
+  width: 20%;
+  margin: 0 0 0 25%;
+  background-image: url(/Imagenes/Botones-Inputs/BotonesDeNavegacion/BackBoton.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  opacity: 70%;
+}
+
+.gallery__toBack:hover {
+  opacity: 100%;
+}
+
+.gallery__toDelete {
+  color: #012f4b;
+  height: 100%;
+  width: 20%;
+  margin: 0 0 0 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 7vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.gallery__toDelete:hover {
+  opacity: 100%;
+}
+
+.gallery__derecha {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.gallery__stikers {
+  margin-top: 10%;
+  height: 72%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.gallery__next {
+  height: 17%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.gallery__toNext {
+  z-index: 2;
+  height: 50%;
+  width: 30%;
+  margin: 0 0 0 45%;
+  background-image: url(/Imagenes/Botones-Inputs/BotonesDeNavegacion/NextBoton.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.gallery__toNext:hover {
+  opacity: 100%;
+}
+/*# sourceMappingURL=Gallery.css.map */

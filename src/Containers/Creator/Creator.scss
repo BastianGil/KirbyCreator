@@ -1,0 +1,670 @@
+@import url('<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700&display=swap" rel="stylesheet">'); 
+
+
+html{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+
+body{
+    
+    height: 100vh;
+    width: 100%;
+}
+
+.creator{
+    color: #3B4D57;
+    font-family: 'Bebas Neue';
+    height: 100vh;
+    width: 100%;
+    background-image: url(/Imagenes/Fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+
+
+
+&__cuaderno{
+
+    height: 90vh;
+    width: 150vh;
+    background-image: url(/Imagenes/pantallas/Creador.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    }
+
+
+    &__izquierda{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    &__link{
+        height: 20%;
+        width: 100%;
+        display: flex;
+    }
+   
+    &__home{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    &__toHome{
+        height: 100%;
+        width: 10%;
+        margin: 0 65% 0 0;
+        background-image: url(/Imagenes/Botones-Inputs/BotonesDeNavegacion/HomeBoton.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        opacity: 80%;
+        &:hover{
+            opacity: 100%;
+        }
+
+
+    }
+
+    &__preview{
+
+        height: 40%;
+        width: 100%;
+        margin: 30% 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    &__kirby{
+
+        
+        height: 40vh;
+        margin: -10% 0 0 15%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    &__base{
+        width: 100%;
+        position: static;
+
+    }
+    &__emocion{
+        width: 100%;
+        position: absolute;
+        top: 50;
+        left: 50;
+    }
+    &__cabeza{
+
+        width: 100%;
+        position: absolute;
+        top: 50;
+        left: 50;
+
+    }
+    &__gris{
+
+        width: 100%;
+        position: absolute;
+        top: 50;
+        left: 50;
+        mix-blend-mode: color;
+
+    }
+
+
+
+
+    &__back{
+        height: 20%;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    &__toBack{
+        height: 100%;
+        width: 20%;
+        margin: 0 0 0 25%;
+        background-image: url(/Imagenes/Botones-Inputs/BotonesDeNavegacion/BackBoton.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        opacity: 80%;
+        &:hover{
+            opacity: 100%;
+        }
+
+
+    }
+
+    &__derecha{
+    
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__pasos{
+        height: 82%;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+     
+    &__next{
+
+        height: 17%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    &__toNext{
+        height: 50%;
+        width:  30%;
+        margin: 0 0 0 45%;
+        background-image: url(/Imagenes/Botones-Inputs/BotonesDeNavegacion/NextBoton.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        opacity: 80%;
+        &:hover{
+            opacity: 100%;
+        }
+
+
+    }
+
+    &__toSave{
+        height: 50%;
+        width:  30%;
+        margin: 0 0 0 45%;
+        background-image: url(/Imagenes/Botones-Inputs/BotonesDeNavegacion/SaveBoton.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        opacity: 80%;
+        &:hover{
+            opacity: 100%;
+        }
+
+
+    }
+
+
+}
+
+.paso3{
+
+    color: #3B4D57;
+    height: 88%;
+    width: 60%;
+    margin: 0 0 0 12%;
+    justify-items: center;
+    justify-content: center;
+
+    &__title{
+
+        height: 8%;
+        width: 100%;
+        font-size: 2.5em;
+
+    }
+
+    &__botones{
+        margin: 10% 0 5% 3%;
+        width: 94%;
+        height: 35%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    &__botones2{
+
+        width: 100%;
+        height: 6%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2vh 0 1vh 0;
+        justify-content: center;
+    }
+
+    &__botones3{
+
+        width: 100%;
+        height: 6%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2vh 0 1vh 0;
+        justify-content: center;
+
+    }
+
+    &__objeto{
+
+        width: 48%;
+        height: 50%;
+        margin: 0 1% 2% 1%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        padding: 0 0 .5vh 0;
+        display: flex;
+        font-size: 4vh;
+        justify-content: center;
+        align-items: center;
+        opacity: 50%;
+        transition: all .3s;
+        
+
+        &:hover{
+            cursor: pointer;
+            opacity: 900%;
+        }
+
+
+        &--1{
+            background-image: url("/Imagenes/Botones-Inputs/BotonesElementos/BotonCabeza1.png");
+            margin-top: -5%;
+
+            &--hover{
+                opacity: 100%;
+            }
+            
+        }
+        &--2{
+            background-image: url("/Imagenes/Botones-Inputs/BotonesElementos/BotonCabeza2.png");
+            height: 40%;
+            &--hover{
+                opacity: 100%;
+            }
+        }
+        &--3{
+            background-image: url("/Imagenes/Botones-Inputs/BotonesElementos/BotonCabeza0.png");
+            margin-top: -2vh;
+            width: 100%;
+            height: 30%;
+            
+            &--hover{
+                opacity: 100%;
+            }
+        }
+        &--4{
+            background-image: url("/Imagenes/Botones-Inputs/BotonesElementos/BotonCabeza3.png");
+            margin-top: -3vh;
+            height: 40%;
+             &--hover{
+                opacity: 100%;
+            }
+        }
+        &--5{
+            background-image: url("/Imagenes/Botones-Inputs/BotonesElementos/BotonCabeza4.png");  
+            margin-top: -3vh;    
+            height: 40%;
+             &--hover{
+                opacity: 100%;
+            }
+        }
+    
+    }
+
+    &__valoresInput{
+        font-family: 'kirby-classic';  
+        width: 94%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        font-size: 2em;
+        color: #3B4D57;
+        justify-content: space-between;
+
+    }
+
+
+
+}
+
+.paso2{
+
+    height: 88%;
+    width: 60%;
+    margin: 0 0 0 12%;
+    justify-items: center;
+    justify-content: center;
+
+
+
+    &__title{
+
+        height: 10%;
+        width: 100%;
+        font-size: 3em;
+
+    }
+
+    &__botones{
+        margin: 4% 0 5% 3%;
+        width: 94%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__botones2{
+
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2vh 0 1vh 0;
+        justify-content: center;
+    }
+
+    &__valoresInput{
+        font-family: 'kirby-classic';  
+        width: 94%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        font-size: 2em;
+        color: #3B4D57;
+        justify-content: space-between;
+
+    }
+
+
+    &__how-boton{
+        font-family: 'kirby-classic';  
+        width: 48%;
+        height: 45%;
+        margin: 0 1% 2% 1%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        padding: 0 0 .5vh 0;
+        display: flex;
+        font-size: 4vh;
+        justify-content: center;
+        align-items: center;
+        
+        
+
+        &--1{
+            background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/CirculoEmocionBoton.png");            
+           
+        }
+
+        &--2{
+            background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/CirculoEmocionBoton.png");      
+        }
+
+        &--3{
+            background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/CirculoEmocionBoton.png");           
+        }
+
+        &--4{
+            background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/CirculoEmocionBoton.png");
+        }
+
+
+
+
+    }
+
+    &__how{
+
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        transition:  0.3s;
+        cursor: pointer;
+        &--1{
+
+
+            &--hover{
+                background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/FelizBoton.png"); 
+            }
+
+            &:hover{
+                font-size: 0;
+                background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/FelizBoton.png"); 
+
+        }
+
+        }
+
+        &--2{
+            &--hover{
+                background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/TristeBoton.png"); 
+            }
+
+            &:hover{
+
+                font-size: 0;
+                background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/TristeBoton.png"); 
+
+        }
+
+        }
+        &--3{
+
+            &--hover{
+                background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/CansadoBoton.png"); 
+            }
+            &:hover{
+
+                font-size: 0;
+                background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/CansadoBoton.png"); 
+
+        }
+
+        }
+        &--4{
+            &--hover{
+                background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/EnojadoBoton.png"); 
+            }
+
+            &:hover{
+
+                font-size: 0;
+                background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/EnojadoBoton.png"); 
+
+        }
+
+        }
+
+
+
+    }
+
+  
+}
+
+
+.paso1{
+
+    height: 88%;
+    width: 60%;
+    margin: 0 0 0 12%;
+    justify-items: center;
+    justify-content: center;
+
+
+    &__title{
+
+        height: 15%;
+        width: 100%;
+        font-size: 4em;
+
+    }
+
+    &__botones{
+        margin: 4% 0 0 3%;
+        width: 94%;
+        height: 80%;
+        display: flex;
+        flex-wrap: wrap;
+ cursor: pointer;       
+    }
+
+    &__shape-boton{
+
+        width: 48%;
+        height: 31%;
+        margin: 0 2% 2% 0;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        cursor: pointer;
+             
+        &:hover{
+            opacity: 80%;
+        }
+
+        &--1{
+            background-image: url("/Imagenes/Botones-Inputs/BotonFormas/FormaGris1.png");
+           
+            &--hover{
+                background-image: url("/Imagenes/Botones-Inputs/BotonFormas/Forma1.png");  
+            }
+
+        }
+        &--2{
+            background-image: url("/Imagenes/Botones-Inputs/BotonFormas/FormaGris2.png");
+            
+             &--hover{
+                background-image: url("/Imagenes/Botones-Inputs/BotonFormas/Forma2.png");  
+            }
+
+        }
+        &--3{
+            background-image: url("/Imagenes/Botones-Inputs/BotonFormas/FormaGris3.png");
+            
+            &--hover{
+                background-image: url("/Imagenes/Botones-Inputs/BotonFormas/Forma3.png");  
+            }
+
+        }
+        &--4{
+            background-image: url("/Imagenes/Botones-Inputs/BotonFormas/FormaGris4.png");
+            
+            &--hover{
+                background-image: url("/Imagenes/Botones-Inputs/BotonFormas/Forma4.png");  
+            }
+
+        }
+        &--5{
+            background-image: url("/Imagenes/Botones-Inputs/BotonFormas/FormaGris5.png");
+             
+            &--hover{
+                background-image: url("/Imagenes/Botones-Inputs/BotonFormas/Forma5.png");  
+            }
+
+        }
+        &--6{
+            background-image: url("/Imagenes/Botones-Inputs/BotonFormas/FormaGris6.png");
+           
+            &--hover{
+                background-image: url("/Imagenes/Botones-Inputs/BotonFormas/Forma6.png");  
+            }
+
+        }
+
+    }
+    
+
+}
+
+//Para personalizar el input range
+input[type=range] {
+    -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+    width: 90%; /* Specific width is required for Firefox. */
+    background: transparent; /* Otherwise white in Chrome */
+  }
+  
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+  }
+  
+  input[type=range]:focus {
+    outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+  }
+  
+  input[type=range]::-ms-track {
+    width: 50%;
+    cursor: pointer;
+  
+    /* Hides the slider so custom styles can be added */
+    background: transparent; 
+    border-color: transparent;
+    color: transparent;
+  }
+
+  /* Special styling for WebKit/Blink */
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    
+    background-image: url("/Imagenes/Botones-Inputs/Input/InputMarcador.png");
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -2vh; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+
+  }
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 1.5vh;
+    cursor: pointer;
+    background-image: url("/Imagenes/Botones-Inputs/Input/InputLinea.png");
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+  }
+  
+  .test{
+      direction: rtl;
+  }

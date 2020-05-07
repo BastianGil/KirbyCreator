@@ -1,0 +1,706 @@
+@charset "UTF-8";
+@import url('<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700&display=swap" rel="stylesheet">');
+ 
+html {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.creator {
+  color: #3B4D57;
+  font-family: 'Bebas Neue';
+  height: 100vh;
+  width: 100%;
+  background-image: url(/Imagenes/Fondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.creator__cuaderno {
+  height: 90vh;
+  width: 150vh;
+  background-image: url(/Imagenes/pantallas/Creador.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.creator__izquierda {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.creator__link {
+  height: 20%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.creator__home {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.creator__toHome {
+  height: 100%;
+  width: 10%;
+  margin: 0 65% 0 0;
+  background-image: url(/Imagenes/Botones-Inputs/BotonesDeNavegacion/HomeBoton.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.creator__toHome:hover {
+  opacity: 100%;
+}
+
+.creator__preview {
+  height: 40%;
+  width: 100%;
+  margin: 30% 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.creator__kirby {
+  height: 40vh;
+  margin: -10% 0 0 15%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.creator__base {
+  width: 100%;
+  position: static;
+}
+
+.creator__emocion {
+  width: 100%;
+  position: absolute;
+  top: 50;
+  left: 50;
+}
+
+.creator__cabeza {
+  width: 100%;
+  position: absolute;
+  top: 50;
+  left: 50;
+}
+
+.creator__gris {
+  width: 100%;
+  position: absolute;
+  top: 50;
+  left: 50;
+  mix-blend-mode: color;
+}
+
+.creator__back {
+  height: 20%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.creator__toBack {
+  height: 100%;
+  width: 20%;
+  margin: 0 0 0 25%;
+  background-image: url(/Imagenes/Botones-Inputs/BotonesDeNavegacion/BackBoton.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.creator__toBack:hover {
+  opacity: 100%;
+}
+
+.creator__derecha {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.creator__pasos {
+  height: 82%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.creator__next {
+  height: 17%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.creator__toNext {
+  height: 50%;
+  width: 30%;
+  margin: 0 0 0 45%;
+  background-image: url(/Imagenes/Botones-Inputs/BotonesDeNavegacion/NextBoton.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.creator__toNext:hover {
+  opacity: 100%;
+}
+
+.creator__toSave {
+  height: 50%;
+  width: 30%;
+  margin: 0 0 0 45%;
+  background-image: url(/Imagenes/Botones-Inputs/BotonesDeNavegacion/SaveBoton.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.creator__toSave:hover {
+  opacity: 100%;
+}
+
+.paso3 {
+  color: #3B4D57;
+  height: 88%;
+  width: 60%;
+  margin: 0 0 0 12%;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.paso3__title {
+  height: 8%;
+  width: 100%;
+  font-size: 2.5em;
+}
+
+.paso3__botones {
+  margin: 10% 0 5% 3%;
+  width: 94%;
+  height: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.paso3__botones2 {
+  width: 100%;
+  height: 6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 2vh 0 1vh 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.paso3__botones3 {
+  width: 100%;
+  height: 6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 2vh 0 1vh 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.paso3__objeto {
+  width: 48%;
+  height: 50%;
+  margin: 0 1% 2% 1%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 0 0 .5vh 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 4vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 50%;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.paso3__objeto:hover {
+  cursor: pointer;
+  opacity: 900%;
+}
+
+.paso3__objeto--1 {
+  background-image: url("/Imagenes/Botones-Inputs/BotonesElementos/BotonCabeza1.png");
+  margin-top: -5%;
+}
+
+.paso3__objeto--1--hover {
+  opacity: 100%;
+}
+
+.paso3__objeto--2 {
+  background-image: url("/Imagenes/Botones-Inputs/BotonesElementos/BotonCabeza2.png");
+  height: 40%;
+}
+
+.paso3__objeto--2--hover {
+  opacity: 100%;
+}
+
+.paso3__objeto--3 {
+  background-image: url("/Imagenes/Botones-Inputs/BotonesElementos/BotonCabeza0.png");
+  margin-top: -2vh;
+  width: 100%;
+  height: 30%;
+}
+
+.paso3__objeto--3--hover {
+  opacity: 100%;
+}
+
+.paso3__objeto--4 {
+  background-image: url("/Imagenes/Botones-Inputs/BotonesElementos/BotonCabeza3.png");
+  margin-top: -3vh;
+  height: 40%;
+}
+
+.paso3__objeto--4--hover {
+  opacity: 100%;
+}
+
+.paso3__objeto--5 {
+  background-image: url("/Imagenes/Botones-Inputs/BotonesElementos/BotonCabeza4.png");
+  margin-top: -3vh;
+  height: 40%;
+}
+
+.paso3__objeto--5--hover {
+  opacity: 100%;
+}
+
+.paso3__valoresInput {
+  font-family: 'kirby-classic';
+  width: 94%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 2em;
+  color: #3B4D57;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.paso2 {
+  height: 88%;
+  width: 60%;
+  margin: 0 0 0 12%;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.paso2__title {
+  height: 10%;
+  width: 100%;
+  font-size: 3em;
+}
+
+.paso2__botones {
+  margin: 4% 0 5% 3%;
+  width: 94%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.paso2__botones2 {
+  width: 100%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 2vh 0 1vh 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.paso2__valoresInput {
+  font-family: 'kirby-classic';
+  width: 94%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 2em;
+  color: #3B4D57;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.paso2__how-boton {
+  font-family: 'kirby-classic';
+  width: 48%;
+  height: 45%;
+  margin: 0 1% 2% 1%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 0 0 .5vh 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 4vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.paso2__how-boton--1 {
+  background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/CirculoEmocionBoton.png");
+}
+
+.paso2__how-boton--2 {
+  background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/CirculoEmocionBoton.png");
+}
+
+.paso2__how-boton--3 {
+  background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/CirculoEmocionBoton.png");
+}
+
+.paso2__how-boton--4 {
+  background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/CirculoEmocionBoton.png");
+}
+
+.paso2__how {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.paso2__how--1--hover {
+  background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/FelizBoton.png");
+}
+
+.paso2__how--1:hover {
+  font-size: 0;
+  background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/FelizBoton.png");
+}
+
+.paso2__how--2--hover {
+  background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/TristeBoton.png");
+}
+
+.paso2__how--2:hover {
+  font-size: 0;
+  background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/TristeBoton.png");
+}
+
+.paso2__how--3--hover {
+  background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/CansadoBoton.png");
+}
+
+.paso2__how--3:hover {
+  font-size: 0;
+  background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/CansadoBoton.png");
+}
+
+.paso2__how--4--hover {
+  background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/EnojadoBoton.png");
+}
+
+.paso2__how--4:hover {
+  font-size: 0;
+  background-image: url("/Imagenes/Botones-Inputs/BotonesEmociones/EnojadoBoton.png");
+}
+
+.paso1 {
+  height: 88%;
+  width: 60%;
+  margin: 0 0 0 12%;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.paso1__title {
+  height: 15%;
+  width: 100%;
+  font-size: 4em;
+}
+
+.paso1__botones {
+  margin: 4% 0 0 3%;
+  width: 94%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.paso1__shape-boton {
+  width: 48%;
+  height: 31%;
+  margin: 0 2% 2% 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  cursor: pointer;
+}
+
+.paso1__shape-boton:hover {
+  opacity: 80%;
+}
+
+.paso1__shape-boton--1 {
+  background-image: url("/Imagenes/Botones-Inputs/BotonFormas/FormaGris1.png");
+}
+
+.paso1__shape-boton--1--hover {
+  background-image: url("/Imagenes/Botones-Inputs/BotonFormas/Forma1.png");
+}
+
+.paso1__shape-boton--2 {
+  background-image: url("/Imagenes/Botones-Inputs/BotonFormas/FormaGris2.png");
+}
+
+.paso1__shape-boton--2--hover {
+  background-image: url("/Imagenes/Botones-Inputs/BotonFormas/Forma2.png");
+}
+
+.paso1__shape-boton--3 {
+  background-image: url("/Imagenes/Botones-Inputs/BotonFormas/FormaGris3.png");
+}
+
+.paso1__shape-boton--3--hover {
+  background-image: url("/Imagenes/Botones-Inputs/BotonFormas/Forma3.png");
+}
+
+.paso1__shape-boton--4 {
+  background-image: url("/Imagenes/Botones-Inputs/BotonFormas/FormaGris4.png");
+}
+
+.paso1__shape-boton--4--hover {
+  background-image: url("/Imagenes/Botones-Inputs/BotonFormas/Forma4.png");
+}
+
+.paso1__shape-boton--5 {
+  background-image: url("/Imagenes/Botones-Inputs/BotonFormas/FormaGris5.png");
+}
+
+.paso1__shape-boton--5--hover {
+  background-image: url("/Imagenes/Botones-Inputs/BotonFormas/Forma5.png");
+}
+
+.paso1__shape-boton--6 {
+  background-image: url("/Imagenes/Botones-Inputs/BotonFormas/FormaGris6.png");
+}
+
+.paso1__shape-boton--6--hover {
+  background-image: url("/Imagenes/Botones-Inputs/BotonFormas/Forma6.png");
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  /* Hides the slider so that custom slider can be made */
+  width: 90%;
+  /* Specific width is required for Firefox. */
+  background: transparent;
+  /* Otherwise white in Chrome */
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none;
+  /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+  width: 50%;
+  cursor: pointer;
+  /* Hides the slider so custom styles can be added */
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+/* Special styling for WebKit/Blink */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 5vh;
+  width: 5vh;
+  border-radius: 50%;
+  background-image: url("/Imagenes/Botones-Inputs/Input/InputMarcador.png");
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -2vh;
+  /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 1.5vh;
+  cursor: pointer;
+  background-image: url("/Imagenes/Botones-Inputs/Input/InputLinea.png");
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.test {
+  direction: rtl;
+}
+/*# sourceMappingURL=Creator.css.map */
